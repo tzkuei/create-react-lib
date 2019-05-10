@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
-  "version": "3.0.1",
-  "description": "Configuration and scripts for Create React App.",
+  "name": "@kuei/react-scripts",
+  "version": "3.0.2-alpha.2",
+  "description": "Configuration and scripts for Create React Lib.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/tzkuei/create-react-lib.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -61,6 +61,7 @@
     "jest-watch-typeahead": "0.3.0",
     "mini-css-extract-plugin": "0.5.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
+    "peer-deps-externals-webpack-plugin": "1.0.4",
     "pnp-webpack-plugin": "1.2.1",
     "postcss-flexbugs-fixes": "4.1.0",
     "postcss-loader": "3.0.0",
