@@ -181,6 +181,9 @@ module.exports = function(
     fs.unlinkSync(templateDependenciesPath);
   }
 
+  console.log(chalk.red('CREATE-REACT-LIBRARY'));
+  console.log();
+
   // Install react and react-dom for backward compatibility with old CRA cli
   // which doesn't install react and react-dom along with react-scripts
   // or template is presetend (via --internal-testing-template)
@@ -256,6 +259,7 @@ module.exports = function(
   }
   console.log();
   console.log('Happy hacking!');
+  console.log();
 };
 
 function isReactInstalled(appPackage) {
